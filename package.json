@@ -3,11 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "directories": {
-    "lib": "lib"
-  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "moon build --target js",
+    "run": "node target/js/release/build/main/main.js"
   },
   "keywords": [],
   "author": "",
