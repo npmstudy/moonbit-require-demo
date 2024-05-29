@@ -1,0 +1,41 @@
+{
+  "source_dir": "/Users/bytedance/workspace/bytedance/koa",
+  "name": "username/hello",
+  "packages": [
+    {
+      "is_main": false,
+      "is_third_party": false,
+      "root": "username/hello",
+      "rel": "lib",
+      "files": [
+        "/Users/bytedance/workspace/bytedance/koa/lib/hello.mbt"
+      ],
+      "test_files": [
+        "/Users/bytedance/workspace/bytedance/koa/lib/hello_test.mbt"
+      ],
+      "deps": [],
+      "test_deps": [],
+      "artifact": "/Users/bytedance/workspace/bytedance/koa/target/wasm-gc/release/check/lib/lib.mi"
+    },
+    {
+      "is_main": true,
+      "is_third_party": false,
+      "root": "username/hello",
+      "rel": "main",
+      "files": [
+        "/Users/bytedance/workspace/bytedance/koa/main/main.mbt"
+      ],
+      "test_files": [],
+      "deps": [
+        {
+          "path": "username/hello/lib",
+          "alias": "lib"
+        }
+      ],
+      "test_deps": [],
+      "artifact": "/Users/bytedance/workspace/bytedance/koa/target/wasm-gc/release/check/main/main.mi"
+    }
+  ],
+  "deps": [],
+  "backend": "wasm-gc"
+}
