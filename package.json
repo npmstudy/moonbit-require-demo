@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "npm run build && node target/js/release/build/main/main.js",
     "build": "moon build --target js",
-    "run": "node target/js/release/build/main/main.js"
+    "debug": "moon build --target js --debug"
   },
   "keywords": [],
   "author": "",
